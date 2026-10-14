@@ -19,3 +19,11 @@ uv.lock
 .ruff_cache/
 .coverage
 htmlcov/
+
+# Secrets: keep real credentials out of git (.env.example is the template)
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
